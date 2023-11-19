@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+html,body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #666666;
+	background-color: #f1f2f6;
+}
+
+#page-container{
+	width:auto;
+	margin:auto;
+	position: relative;
+}
+
+#main-nav{
+	background-color:white;
+	padding:20px;
+	text-align: right;
+	width:auto;
+	margin:auto;
+}
+
+#content{
+	position: absolute;
+	float: left;
+}
+
+#right{
+	width: 83%;
+	height: max-content;
+	float: right;
+}
+
+#sidebar-a{
+	    width: 17%;
+	    height: 590px;
+		background-color:#20acfb;
+		float: left;
+}
+
+#footer{
+	width: 100%;
+	height: 66px;
+	clear: both;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #c9c9c9;
+	border-top: 1px solid #efefed;
+	line-height: 20px;
+	padding:13px 25px;
+	position: absolute;
+	bottom: 0;
+}
+	
+
+#reminder{
+	width: 100%;
+	height: 50%;
+	background-color: white;
+	float: left;
+}
+
+#reminder1,#reminder2,#reminder3,#entry1,#entry2,#entry3{
+	width: 105px;
+	height: 100px;
+	float: left;
+	margin:10px;
+	padding: 10px;
+}
+
+#reminder1{
+	background-color: #fcfcf4;
+}
+
+#reminder2{
+	background-color: #ecf7fd;
+}
+
+#reminder3{
+	background-color: #fcfcf4;
+}
+
+#entry{
+	margin-top: 8px;
+	width: 100%;
+	height:50%;
+	background-color: white;
+	float: left;
+}
+
+#entry1{
+	background-color: #fcfcf4;
+}
+
+#entry2{
+	background-color: #ecf7fd;
+}
+
+#entry3{
+	background-color: #fcfcf4;
+
+}
+
+.mode{
+	margin:15px;
+	padding: 8px;
+	width: 40%;
+	height: 252px;
+	float: left;
+	background-color: white;
+}
+
+
+.image {
+	max-width: 90%;
+	max-height: 90%;
+	width: auto;
+	height: auto;
+  }
+
+  #modehui{
+	margin:15px;
+	padding: 8px;
+	width: 40%;
+	height: 252px;
+	float: left;
+	background-color: #f1f2f6;
+  }
+
+  .hr-solid-sider{
+	border: 0;
+	border-top: 1px solid #20acfb;
+  }
+  
+  
